@@ -1,3 +1,11 @@
+## [1.0.1](https://github.com/CoCreate-app/CoCreate-message-client/compare/v1.0.0...v1.0.1) (2021-04-19)
+
+
+### Bug Fixes
+
+* ci and build process ([b9d3f26](https://github.com/CoCreate-app/CoCreate-message-client/commit/b9d3f269f96a70343f62af41a77dfff8f4d48aa6))
+* npm publish and cdn deployment ([d56cc12](https://github.com/CoCreate-app/CoCreate-message-client/commit/d56cc1262b7cc9b935354f7d70057c54012085c3))
+
 # 1.0.0 (2021-04-11)
 
 
