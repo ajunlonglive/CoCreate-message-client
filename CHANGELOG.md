@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/CoCreate-app/CoCreate-message-client/compare/v1.0.4...v1.0.5) (2021-04-27)
+
+
+### Bug Fixes
+
+* add host in docs ([4aef935](https://github.com/CoCreate-app/CoCreate-message-client/commit/4aef935fb7408c83bfa6648db0eb7c1aee5224ec))
+
 ## [1.0.4](https://github.com/CoCreate-app/CoCreate-message-client/compare/v1.0.3...v1.0.4) (2021-04-27)
 
 
