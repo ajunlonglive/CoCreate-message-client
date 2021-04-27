@@ -1,3 +1,10 @@
+## [1.0.4](https://github.com/CoCreate-app/CoCreate-message-client/compare/v1.0.3...v1.0.4) (2021-04-27)
+
+
+### Bug Fixes
+
+* Update to readme, demo, added cdn scripts ([ecf0e6d](https://github.com/CoCreate-app/CoCreate-message-client/commit/ecf0e6ddc57d9633bcf3498a0988d5fb369bf22c))
+
 ## [1.0.3](https://github.com/CoCreate-app/CoCreate-message-client/compare/v1.0.2...v1.0.3) (2021-04-23)
 
 
