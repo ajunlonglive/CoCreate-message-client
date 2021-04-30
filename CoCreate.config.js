@@ -10,7 +10,7 @@ module.exports = {
             "path": "./docs/index.html",
             "collection": "files",
             "document_id": "6060b7e5c759fc34e923ce92",
-            "key": "html",
+            "key": "src",
             "data":{
                 "name": "message-client Doc",
                 "domains": ["cocreate.app", "server.cocreate.app", "ws.cocreate.app"],
