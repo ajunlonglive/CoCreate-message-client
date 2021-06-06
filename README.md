@@ -1,6 +1,6 @@
 # CoCreate-message-client
 
-A simple message-client component in vanilla javascript. Easily configured using HTML5 data-attributes and/or JavaScript API. Take it for a spin in our [playground!](https://cocreate.app/docs/message-client)
+A collaborative component built on top of CoCreate Socket that capable of providing memorandum support. Easy to use & great for broadcasting messages. Take it for a spin in our [playground!](https://cocreate.app/docs/message-client)
 
 ![GitHub file size in bytes](https://img.shields.io/github/size/CoCreate-app/CoCreate-message-client/dist/CoCreate-message-client.min.js?label=minified%20size&style=for-the-badge)
 ![GitHub latest release](https://img.shields.io/github/v/release/CoCreate-app/CoCreate-message-client?style=for-the-badge)
