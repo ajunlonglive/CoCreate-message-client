@@ -1,3 +1,10 @@
+## [1.0.7](https://github.com/CoCreate-app/CoCreate-message-client/compare/v1.0.6...v1.0.7) (2021-06-16)
+
+
+### Bug Fixes
+
+* added header for seo ([ff73a12](https://github.com/CoCreate-app/CoCreate-message-client/commit/ff73a127611087771ee43d068b032fa8d19dce85))
+
 ## [1.0.6](https://github.com/CoCreate-app/CoCreate-message-client/compare/v1.0.5...v1.0.6) (2021-06-06)
 
 
