@@ -1,3 +1,10 @@
+## [1.0.14](https://github.com/CoCreate-app/CoCreate-message-client/compare/v1.0.13...v1.0.14) (2021-07-10)
+
+
+### Bug Fixes
+
+* gitignore all logs ([9e0b53a](https://github.com/CoCreate-app/CoCreate-message-client/commit/9e0b53a35a5a54a9e2c577aacb3748b45a99b50d))
+
 ## [1.0.13](https://github.com/CoCreate-app/CoCreate-message-client/compare/v1.0.12...v1.0.13) (2021-07-07)
 
 
