@@ -1,3 +1,11 @@
+## [1.0.15](https://github.com/CoCreate-app/CoCreate-message-client/compare/v1.0.14...v1.0.15) (2021-07-13)
+
+
+### Bug Fixes
+
+* add yarn lockfile to git ignore ([8be3276](https://github.com/CoCreate-app/CoCreate-message-client/commit/8be32769c2c61e4ff74ccd77fc0fe7a589719cdb))
+* remove yarn.lock ([63371e2](https://github.com/CoCreate-app/CoCreate-message-client/commit/63371e24ffaef83aa219fd3f54d9434379c753ce))
+
 ## [1.0.14](https://github.com/CoCreate-app/CoCreate-message-client/compare/v1.0.13...v1.0.14) (2021-07-10)
 
 
