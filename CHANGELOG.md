@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/CoCreate-app/CoCreate-message-client/compare/v1.1.0...v1.1.1) (2021-07-28)
+
+
+### Bug Fixes
+
+* remove data- from fetch, pass and filter ([db221c1](https://github.com/CoCreate-app/CoCreate-message-client/commit/db221c124811178b0d1ec7ad6c52e8ecf1073988))
+
 # [1.1.0](https://github.com/CoCreate-app/CoCreate-message-client/compare/v1.0.17...v1.1.0) (2021-07-28)
 
 
