@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/CoCreate-app/CoCreate-message-client/compare/v1.0.17...v1.1.0) (2021-07-28)
+
+
+### Features
+
+* add new is{attribute} system and remove data- from attributtes ([7e5bf49](https://github.com/CoCreate-app/CoCreate-message-client/commit/7e5bf495ca119142686d542229d9d810caf98972))
+
 ## [1.0.17](https://github.com/CoCreate-app/CoCreate-message-client/compare/v1.0.16...v1.0.17) (2021-07-17)
 
 
