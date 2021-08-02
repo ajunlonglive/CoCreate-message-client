@@ -1,3 +1,11 @@
+## [1.1.2](https://github.com/CoCreate-app/CoCreate-message-client/compare/v1.1.1...v1.1.2) (2021-08-02)
+
+
+### Bug Fixes
+
+* remove data- from attributes ([7c0d5a6](https://github.com/CoCreate-app/CoCreate-message-client/commit/7c0d5a6d0b9014829ef23e5b9eb110a76f55f1a0))
+* update data-fullscreen to fullscreen ([94153c1](https://github.com/CoCreate-app/CoCreate-message-client/commit/94153c144338d508ec7b9ac169a9812a4670949d))
+
 ## [1.1.1](https://github.com/CoCreate-app/CoCreate-message-client/compare/v1.1.0...v1.1.1) (2021-07-28)
 
 
