@@ -1,3 +1,10 @@
+## [1.1.6](https://github.com/CoCreate-app/CoCreate-message-client/compare/v1.1.5...v1.1.6) (2021-08-22)
+
+
+### Bug Fixes
+
+* removed data- from main-content, clone, filter-value_type ([62872c8](https://github.com/CoCreate-app/CoCreate-message-client/commit/62872c8e1596d904819ba0544d932777469b272c))
+
 ## [1.1.5](https://github.com/CoCreate-app/CoCreate-message-client/compare/v1.1.4...v1.1.5) (2021-08-22)
 
 
