@@ -1,3 +1,10 @@
+## [1.1.9](https://github.com/CoCreate-app/CoCreate-message-client/compare/v1.1.8...v1.1.9) (2021-08-31)
+
+
+### Bug Fixes
+
+* update dependencies ([110796a](https://github.com/CoCreate-app/CoCreate-message-client/commit/110796aa726c338eb7fbe90730faa59dbd63d7c3))
+
 ## [1.1.8](https://github.com/CoCreate-app/CoCreate-message-client/compare/v1.1.7...v1.1.8) (2021-08-27)
 
 
