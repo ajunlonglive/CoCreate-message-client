@@ -1,3 +1,10 @@
+## [1.1.12](https://github.com/CoCreate-app/CoCreate-message-client/compare/v1.1.11...v1.1.12) (2021-09-09)
+
+
+### Bug Fixes
+
+* CoCreate.config directory, path, name and  public ([4360a87](https://github.com/CoCreate-app/CoCreate-message-client/commit/4360a875d286f58051640c554f89c19711b5acab))
+
 ## [1.1.11](https://github.com/CoCreate-app/CoCreate-message-client/compare/v1.1.10...v1.1.11) (2021-09-08)
 
 
