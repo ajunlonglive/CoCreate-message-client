@@ -1,3 +1,10 @@
+## [1.1.16](https://github.com/CoCreate-app/CoCreate-message-client/compare/v1.1.15...v1.1.16) (2021-09-12)
+
+
+### Bug Fixes
+
+* update sidenav to use resize and toggle ([78458cb](https://github.com/CoCreate-app/CoCreate-message-client/commit/78458cbd8cb3d5d804e2746f3603bbcd55aab0f0))
+
 ## [1.1.15](https://github.com/CoCreate-app/CoCreate-message-client/compare/v1.1.14...v1.1.15) (2021-09-09)
 
 
