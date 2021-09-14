@@ -1,3 +1,10 @@
+## [1.1.18](https://github.com/CoCreate-app/CoCreate-message-client/compare/v1.1.17...v1.1.18) (2021-09-14)
+
+
+### Bug Fixes
+
+* add cocreate.app to domains ([269126c](https://github.com/CoCreate-app/CoCreate-message-client/commit/269126c71cce5fd7f65081a69bc96d8d99083684))
+
 ## [1.1.17](https://github.com/CoCreate-app/CoCreate-message-client/compare/v1.1.16...v1.1.17) (2021-09-13)
 
 
