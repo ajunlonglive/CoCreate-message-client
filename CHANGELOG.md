@@ -1,3 +1,11 @@
+## [1.1.29](https://github.com/CoCreate-app/CoCreate-message-client/compare/v1.1.28...v1.1.29) (2021-10-14)
+
+
+### Bug Fixes
+
+* commonFunc of socket now accessed from socket.xxx ([3a4d42a](https://github.com/CoCreate-app/CoCreate-message-client/commit/3a4d42a9e3eccce722d138e69deadc2a16b3fc2f))
+* updated dependencies ([1d10e86](https://github.com/CoCreate-app/CoCreate-message-client/commit/1d10e863dbe0c8cb59ff9ace8f3511fc084f802f))
+
 ## [1.1.28](https://github.com/CoCreate-app/CoCreate-message-client/compare/v1.1.27...v1.1.28) (2021-10-13)
 
 
