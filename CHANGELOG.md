@@ -1,3 +1,10 @@
+## [1.1.30](https://github.com/CoCreate-app/CoCreate-message-client/compare/v1.1.29...v1.1.30) (2021-10-14)
+
+
+### Bug Fixes
+
+* remove function recieve ([0042a75](https://github.com/CoCreate-app/CoCreate-message-client/commit/0042a753773feeb32f6c1ffb6a2a3fe4468d7bba))
+
 ## [1.1.29](https://github.com/CoCreate-app/CoCreate-message-client/compare/v1.1.28...v1.1.29) (2021-10-14)
 
 
