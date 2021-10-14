@@ -52,10 +52,7 @@
       this.socket.send('sendMessage', request_data, room)
     },
    
-    receive: function(message, fun) {
-      this.socket.listen(message, fun);
-    },
-   
+
    	createSocket: function(host, namespace) {
    	  if (!this.socket) return;
    	  
