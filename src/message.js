@@ -1,19 +1,18 @@
 (function (root, factory) {
     if (typeof define === 'function' && define.amd) {
-        define(["@cocreate/socket-client/src/common-fun.js"], function(commonFunc) {
-        	return factory(window, commonFunc)
+        define( function() {
+        	return factory(window)
         });
     } else if (typeof module === 'object' && module.exports) {
       let wnd = {
         config: {},
         File: {}
       }
-      const commonFunc = require("@cocreate/socket-client/src/common-fun.js")
-      module.exports = factory(wnd, commonFunc);
+      module.exports = factory(wnd);
     } else {
-        root.returnExports = factory(window, root["@cocreate/socket-client/src/common-fun.js"]);
+        root.returnExports = factory(window);
   }
-}(typeof self !== 'undefined' ? self : this, function (wnd, commonFunc) {
+}(typeof self !== 'undefined' ? self : this, function (wnd) {
   const CoCreateMessage = {
     socket: null,
     setSocket: function(socket) {
@@ -34,7 +33,7 @@
     })
    */
     send: function(data) {
-      let request_data = commonFunc.getCommonParams();
+      let request_data = this.socket.getCommonParams();
       
       if (!data || !data.emit) {
         return;     
@@ -48,7 +47,7 @@
       // if (data['broadcast_sender'] === undefined) {
       //   request_data['broadcast_sender'] = true;
       // }
-      const room = commonFunc.generateSocketClient(data.namespace, data.room);
+      const room = this.socket.generateSocketClient(data.namespace, data.room);
       
       this.socket.send('sendMessage', request_data, room)
     },
