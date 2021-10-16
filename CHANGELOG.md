@@ -1,3 +1,10 @@
+## [1.1.36](https://github.com/CoCreate-app/CoCreate-message-client/compare/v1.1.35...v1.1.36) (2021-10-16)
+
+
+### Bug Fixes
+
+* update socket package to fix bug in docs ([8b42c74](https://github.com/CoCreate-app/CoCreate-message-client/commit/8b42c74b9bc11e0ae42c1ed4b751801286a7c554))
+
 ## [1.1.35](https://github.com/CoCreate-app/CoCreate-message-client/compare/v1.1.34...v1.1.35) (2021-10-16)
 
 
