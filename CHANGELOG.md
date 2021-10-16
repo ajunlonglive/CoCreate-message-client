@@ -1,3 +1,12 @@
+## [1.1.37](https://github.com/CoCreate-app/CoCreate-message-client/compare/v1.1.36...v1.1.37) (2021-10-16)
+
+
+### Bug Fixes
+
+* made one file and removed async function ([fa63931](https://github.com/CoCreate-app/CoCreate-message-client/commit/fa63931fb37dc723dbdc4e6a45c6a5c511e688b4))
+* socket.send has better namespace and room support ([712a753](https://github.com/CoCreate-app/CoCreate-message-client/commit/712a7536accb5a07165965c28abd2b4d839bfb1d))
+* updated socket and crud  dependency ([170cdef](https://github.com/CoCreate-app/CoCreate-message-client/commit/170cdef7d3aaa984788c0b39ae838e9ccbaa970d))
+
 ## [1.1.36](https://github.com/CoCreate-app/CoCreate-message-client/compare/v1.1.35...v1.1.36) (2021-10-16)
 
 
