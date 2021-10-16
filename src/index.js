@@ -1,11 +1,11 @@
 (function(root, factory) {
     if (typeof define === 'function' && define.amd) {
         define(["@cocreate/socket-client"], function(CoCreateSocket) {
-            return factory(true, CoCreateSocket)
+            return factory(true, CoCreateSocket);
         });
     }
     else if (typeof module === 'object' && module.exports) {
-        const CoCreateSocket = require("@cocreate/socket-client/src/")
+        const CoCreateSocket = require("@cocreate/socket-client/src/");
         module.exports = factory(false, CoCreateSocket);
     }
     else {
@@ -15,6 +15,7 @@
 
     const CoCreateMessage = {
         socket: null,
+        
         setSocket: function(socket) {
             this.socket = socket;
             
@@ -22,7 +23,7 @@
                 let socket = window.CoCreateSockets;
     
                 if (!socket) {
-                    let socket = new CoCreateSocket('ws');
+                    socket = new CoCreateSocket('ws');
                     window.CoCreateSockets = socket;
                 }
                 
@@ -47,32 +48,21 @@
          })
         */
         send: function(data) {
-            let request_data = this.socket.getCommonParams();
-
+            let commonData = this.socket.getCommonParams(data);
             if (!data || !data.emit) {
                 return;
             }
-            request_data = { ...request_data, ...data }
-
-            /** socket parameters **/
-            // if (data['broadcast'] === undefined) {
-            //   request_data['broadcast'] = true;
-            // }
-            // if (data['broadcast_sender'] === undefined) {
-            //   request_data['broadcast_sender'] = true;
-            // }
-            const room = this.socket.generateSocketClient(data.namespace, data.room);
-
-            this.socket.send('sendMessage', request_data, room)
+            let request_data = { ...commonData, ...data }
+            this.socket.send('sendMessage', request_data)
         },
 
         listen: function(message, fun) {
-            if (!this.socket)
-                this.setSocket()
             this.socket.listen(message, fun);
         },
 
     }
+    
+    CoCreateMessage.setSocket()
 
     return CoCreateMessage;
 }));
