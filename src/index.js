@@ -13,15 +13,15 @@
 }(typeof self !== 'undefined' ? self : this, function (isBrowser, CoCreateSocket, CoCreateMessage) {
   if (isBrowser) {
     // let message_socket = window.CoCreateMessageSocket
-    let message_socket = window.CoCreateCrudSocket
+    let message_socket = window.CoCreateSockets;
     
     if (!message_socket) {
       let message_socket = new CoCreateSocket('ws');
       // window.CoCreateMessageSocket = message_socket;
-      window.CoCreateCrudSocket = message_socket;
+      window.CoCreateSockets = message_socket;
     }
     CoCreateMessage.setSocket(message_socket);
-    CoCreateMessage.createSocket(window.config.host ? window.config.host : window.location.hostname, window.config.organization_Id)
+    CoCreateMessage.createSocket(window.config.host ? window.config.host : window.location.hostname, window.config.organization_Id);
   } 
   return CoCreateMessage;
 }));
