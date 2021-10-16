@@ -1,27 +1,78 @@
-(function (root, factory) {
+(function(root, factory) {
     if (typeof define === 'function' && define.amd) {
-        define(["@cocreate/socket-client", "./message.js"], function(CoCreateSocket, CoCreateMessage) {
-        	return factory(true, CoCreateSocket, CoCreateMessage)
+        define(["@cocreate/socket-client"], function(CoCreateSocket) {
+            return factory(true, CoCreateSocket)
         });
-    } else if (typeof module === 'object' && module.exports) {
-      const CoCreateSocket = require("@cocreate/socket-client/src/")
-      const CoCreateMessage = require("./message.js")
-      module.exports = factory(false, CoCreateSocket, CoCreateMessage);
-    } else {
-        root.returnExports = factory(true, root["@cocreate/socket-client"], root["./message.js"]);
-  }
-}(typeof self !== 'undefined' ? self : this, function (isBrowser, CoCreateSocket, CoCreateMessage) {
-  if (isBrowser) {
-    // let message_socket = window.CoCreateMessageSocket
-    let message_socket = window.CoCreateSockets;
-    
-    if (!message_socket) {
-      let message_socket = new CoCreateSocket('ws');
-      // window.CoCreateMessageSocket = message_socket;
-      window.CoCreateSockets = message_socket;
     }
-    CoCreateMessage.setSocket(message_socket);
-    CoCreateMessage.createSocket(window.config.host ? window.config.host : window.location.hostname, window.config.organization_Id);
-  } 
-  return CoCreateMessage;
+    else if (typeof module === 'object' && module.exports) {
+        const CoCreateSocket = require("@cocreate/socket-client/src/")
+        module.exports = factory(false, CoCreateSocket);
+    }
+    else {
+        root.returnExports = factory(true, root["@cocreate/socket-client"]);
+    }
+}(typeof self !== 'undefined' ? self : this, function(isBrowser, CoCreateSocket) {
+
+    const CoCreateMessage = {
+        socket: null,
+        setSocket: function(socket) {
+            this.socket = socket;
+            
+            if (isBrowser) {
+                let socket = window.CoCreateSockets;
+    
+                if (!socket) {
+                    let socket = new CoCreateSocket('ws');
+                    window.CoCreateSockets = socket;
+                }
+                
+                this.socket = socket;
+                this.socket.create(window.config);
+                
+            }
+        },
+        
+        /*
+        CoCreate.message.send({
+           namespace: '',
+           room: '',
+           broadcast: true/false,
+           broadcast_sender: true/false
+           
+           rooms: [r1, r2],
+           emit: {
+             message': 'nice game',
+             data': 'let's play a game ....'
+           }
+         })
+        */
+        send: function(data) {
+            let request_data = this.socket.getCommonParams();
+
+            if (!data || !data.emit) {
+                return;
+            }
+            request_data = { ...request_data, ...data }
+
+            /** socket parameters **/
+            // if (data['broadcast'] === undefined) {
+            //   request_data['broadcast'] = true;
+            // }
+            // if (data['broadcast_sender'] === undefined) {
+            //   request_data['broadcast_sender'] = true;
+            // }
+            const room = this.socket.generateSocketClient(data.namespace, data.room);
+
+            this.socket.send('sendMessage', request_data, room)
+        },
+
+        listen: function(message, fun) {
+            if (!this.socket)
+                this.setSocket()
+            this.socket.listen(message, fun);
+        },
+
+    }
+
+    return CoCreateMessage;
 }));
