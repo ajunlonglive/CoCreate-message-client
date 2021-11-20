@@ -1,3 +1,10 @@
+## [1.1.51](https://github.com/CoCreate-app/CoCreate-message-client/compare/v1.1.50...v1.1.51) (2021-11-20)
+
+
+### Bug Fixes
+
+* remove cdn.CoCreate.min.css ([40052f2](https://github.com/CoCreate-app/CoCreate-message-client/commit/40052f2e00b9af045e1f757ef7038e3105632efc))
+
 ## [1.1.50](https://github.com/CoCreate-app/CoCreate-message-client/compare/v1.1.49...v1.1.50) (2021-11-20)
 
 
