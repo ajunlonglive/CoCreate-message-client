@@ -1,3 +1,10 @@
+## [1.1.54](https://github.com/CoCreate-app/CoCreate-message-client/compare/v1.1.53...v1.1.54) (2021-11-26)
+
+
+### Bug Fixes
+
+* docs sidenav width ([cdbcf9d](https://github.com/CoCreate-app/CoCreate-message-client/commit/cdbcf9dfbdddb558bd48eb32f4d086a953a0a6db))
+
 ## [1.1.53](https://github.com/CoCreate-app/CoCreate-message-client/compare/v1.1.52...v1.1.53) (2021-11-26)
 
 
