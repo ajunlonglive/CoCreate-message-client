@@ -1,3 +1,10 @@
+## [1.1.55](https://github.com/CoCreate-app/CoCreate-message-client/compare/v1.1.54...v1.1.55) (2021-11-27)
+
+
+### Bug Fixes
+
+* update docs api and cocreateJS script ([6767d19](https://github.com/CoCreate-app/CoCreate-message-client/commit/6767d19defcef95cc07838f026cb75d3e504f216))
+
 ## [1.1.54](https://github.com/CoCreate-app/CoCreate-message-client/compare/v1.1.53...v1.1.54) (2021-11-26)
 
 
