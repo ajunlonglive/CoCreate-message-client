@@ -1,3 +1,10 @@
+## [1.1.60](https://github.com/CoCreate-app/CoCreate-message-client/compare/v1.1.59...v1.1.60) (2022-01-01)
+
+
+### Bug Fixes
+
+* get-value attribute value now supports a selector added # to all values currently in get-value attributes ([0dd2fb9](https://github.com/CoCreate-app/CoCreate-message-client/commit/0dd2fb90ed9b435099bec68852ae6050c14bab0c))
+
 ## [1.1.59](https://github.com/CoCreate-app/CoCreate-message-client/compare/v1.1.58...v1.1.59) (2021-12-15)
 
 
