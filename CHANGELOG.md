@@ -1,3 +1,10 @@
+## [1.1.62](https://github.com/CoCreate-app/CoCreate-message-client/compare/v1.1.61...v1.1.62) (2022-02-03)
+
+
+### Bug Fixes
+
+* replaced show and hide class hidden with attribute hidden ([b913457](https://github.com/CoCreate-app/CoCreate-message-client/commit/b913457571f11b663261270bf62559e8c3a68036))
+
 ## [1.1.61](https://github.com/CoCreate-app/CoCreate-message-client/compare/v1.1.60...v1.1.61) (2022-02-01)
 
 
