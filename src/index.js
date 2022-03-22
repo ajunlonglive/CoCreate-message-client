@@ -35,21 +35,19 @@
         
         /*
         CoCreate.message.send({
-           namespace: '',
-           room: '',
-           broadcast: true/false,
-           broadcast_sender: true/false
-           
-           rooms: [r1, r2],
-           emit: {
-             message': 'nice game',
-             data': 'let's play a game ....'
-           }
+            namespace: '',
+            room: '',
+            broadcast: true/false,
+            broadcast_sender: true/false
+            
+            rooms: [r1, r2],
+            message': 'nice game',
+            data': 'let's play a game ....'
          })
         */
         send: function(data) {
             let commonData = this.socket.getCommonParams(data);
-            if (!data || !data.emit) {
+            if (!data || !data.data) {
                 return;
             }
             let request_data = { ...commonData, ...data }
