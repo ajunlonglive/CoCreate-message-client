@@ -1,3 +1,10 @@
+## [1.1.68](https://github.com/CoCreate-app/CoCreate-message-client/compare/v1.1.67...v1.1.68) (2022-05-06)
+
+
+### Bug Fixes
+
+* update config organization_Id to organization_id ([cefbe7d](https://github.com/CoCreate-app/CoCreate-message-client/commit/cefbe7da57c09df470135886cd40118abcb297e2))
+
 ## [1.1.67](https://github.com/CoCreate-app/CoCreate-message-client/compare/v1.1.66...v1.1.67) (2022-03-22)
 
 
