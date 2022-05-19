@@ -1,3 +1,10 @@
+## [1.1.69](https://github.com/CoCreate-app/CoCreate-message-client/compare/v1.1.68...v1.1.69) (2022-05-19)
+
+
+### Bug Fixes
+
+* update document_id on link index.css ([a833918](https://github.com/CoCreate-app/CoCreate-message-client/commit/a8339186a4e55ef0b663037c3c1472f3b8e16b24))
+
 ## [1.1.68](https://github.com/CoCreate-app/CoCreate-message-client/compare/v1.1.67...v1.1.68) (2022-05-06)
 
 
