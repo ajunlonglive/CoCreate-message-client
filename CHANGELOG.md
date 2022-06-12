@@ -1,3 +1,11 @@
+## [1.1.71](https://github.com/CoCreate-app/CoCreate-message-client/compare/v1.1.70...v1.1.71) (2022-06-12)
+
+
+### Bug Fixes
+
+* update dependencies ([b154b07](https://github.com/CoCreate-app/CoCreate-message-client/commit/b154b070a23e912a60bf1ba07cde27ef7dee53cf))
+* update docs css document_id ([6a842e9](https://github.com/CoCreate-app/CoCreate-message-client/commit/6a842e95ba3c8c440c32e1a32ca1d1341a1aaa37))
+
 ## [1.1.70](https://github.com/CoCreate-app/CoCreate-message-client/compare/v1.1.69...v1.1.70) (2022-05-23)
 
 
