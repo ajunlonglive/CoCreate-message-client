@@ -38,7 +38,7 @@
             namespace: '',
             room: '',
             broadcast: true/false,
-            broadcast_sender: true/false
+            broadcastSender: true/false
             
             rooms: [r1, r2],
             message': 'nice game',
