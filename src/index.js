@@ -46,12 +46,10 @@
          })
         */
         send: function(data) {
-            let commonData = this.socket.getCommonParams(data);
             if (!data || !data.data) {
                 return;
             }
-            let request_data = { ...commonData, ...data }
-            this.socket.send('sendMessage', request_data)
+            this.socket.send('sendMessage', data)
         },
 
         listen: function(message, fun) {
