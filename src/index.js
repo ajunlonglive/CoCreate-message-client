@@ -20,15 +20,15 @@
             this.socket = socket;
             
             if (isBrowser) {
-                let socket = window.CoCreateSockets;
+                let socket = window.CoCreateSocket;
     
                 if (!socket) {
-                    socket = new CoCreateSocket('ws');
-                    window.CoCreateSockets = socket;
+                    socket = new CoCreateSocket();
+                    window.CoCreateSocket = socket;
                 }
                 
                 this.socket = socket;
-                this.socket.create(window.config);
+                this.socket.create();
                 
             }
         },
