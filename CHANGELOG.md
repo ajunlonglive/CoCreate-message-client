@@ -1,3 +1,12 @@
+## [1.1.76](https://github.com/CoCreate-app/CoCreate-message-client/compare/v1.1.75...v1.1.76) (2022-09-28)
+
+
+### Bug Fixes
+
+* isBrowser refactor ([5c9eefc](https://github.com/CoCreate-app/CoCreate-message-client/commit/5c9eefca0b4bca73450287a52a7ce37cb9921245))
+* removed getCommonParams as defaults are applied by socket ([0a3a757](https://github.com/CoCreate-app/CoCreate-message-client/commit/0a3a757c267f6858529beb918694424177f96a00))
+* window.config removed and no prefix defined ([1f5e49d](https://github.com/CoCreate-app/CoCreate-message-client/commit/1f5e49de9c56c7928f0b4af92b22e7387211e2f2))
+
 ## [1.1.75](https://github.com/CoCreate-app/CoCreate-message-client/compare/v1.1.74...v1.1.75) (2022-09-22)
 
 
