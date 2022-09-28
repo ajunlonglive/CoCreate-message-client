@@ -17,19 +17,10 @@
         socket: null,
         
         setSocket: function(socket) {
-            this.socket = socket;
+            this.socket = socket || CoCreateSocket;
             
             if (isBrowser) {
-                let socket = window.CoCreateSocket;
-    
-                if (!socket) {
-                    socket = new CoCreateSocket();
-                    window.CoCreateSocket = socket;
-                }
-                
-                this.socket = socket;
                 this.socket.create();
-                
             }
         },
         
