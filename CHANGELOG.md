@@ -1,3 +1,10 @@
+## [1.1.77](https://github.com/CoCreate-app/CoCreate-message-client/compare/v1.1.76...v1.1.77) (2022-09-29)
+
+
+### Bug Fixes
+
+* config renameed to CoCreateConfig ([d53abcf](https://github.com/CoCreate-app/CoCreate-message-client/commit/d53abcf123012e068074613dc4ab17a35a52e2dd))
+
 ## [1.1.76](https://github.com/CoCreate-app/CoCreate-message-client/compare/v1.1.75...v1.1.76) (2022-09-28)
 
 
