@@ -1,3 +1,10 @@
+## [1.1.85](https://github.com/CoCreate-app/CoCreate-message-client/compare/v1.1.84...v1.1.85) (2022-10-02)
+
+
+### Bug Fixes
+
+* bump @cocreate/socket-client ([6f32266](https://github.com/CoCreate-app/CoCreate-message-client/commit/6f322667be63831e899fdd192578c1883c7edc4e))
+
 ## [1.1.84](https://github.com/CoCreate-app/CoCreate-message-client/compare/v1.1.83...v1.1.84) (2022-10-02)
 
 
